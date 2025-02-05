@@ -1,0 +1,84 @@
+/* Reset general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    color: #333;
+}
+
+/* Container for layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header styles */
+header {
+    background-color: #2d2c8c;
+    padding: 10px 0;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #b51212;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #2d2c8c, white 50%, #b51212);
+}
+
+.welcome h1 {
+    font-size: 36px;
+    color: #2d2c8c;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2d2c8c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
